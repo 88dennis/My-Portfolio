@@ -3,7 +3,8 @@ body{
 	padding: 0;
 	box-sizing: border-box;
 	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#2e3131)) fixed;
-}
+  font-family: 'Lato', sans-serif;
+  }
 
 .circles{
 
@@ -15,6 +16,7 @@ body{
 	text-align: center;
 
 }
+
 
 .btn1{
 	background-color: transparent;
@@ -29,6 +31,19 @@ body{
 button:focus,
 select:focus {
   outline: none;
+}
+
+.front-names{
+  color:rgba(31, 58, 147, 1);
+  z-index: 2;
+}
+
+.front-namesgal{
+  color:rgba(31, 58, 147, 1);
+  z-index: 2;
+  margin-top: 50px;
+background-color: white;
+width: 300px;
 }
 
 .three-circles{
@@ -49,32 +64,351 @@ select:focus {
   transition: transform .2s;
 }
 
+.three-circles:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+
+/*CIRCLE 1*/
+
+#circle1{
+  background-color: rgba(197, 239, 247, 1);
+}
+
 .me-circle{
-  background: white;
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
+}
 
+#overlay-me {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
 
 }
+
+/*INSIDE OVERLAY1*/
+.wrap1{
+
+  background-color: rgba(51, 110, 123, 0.8);
+  overflow: auto;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  color: white;
+  
+}
+
+.card1wrap{
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+}
+.card1cont{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 350px;
+
+}
+.about-me {
+  background-color: transparent;
+  overflow: auto;
+  width: 100%;
+  height: 300px;
+}
+.head-pic1{
+  display: flex;
+  justify-content: center;
+}
+
+.idphoto{
+  width: 190px;
+  height: 190px;
+  background: #000;
+  position: absolute;
+  display: inline-block;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.head-name1{
+  display: flex;
+  justify-content: center;
+}
+.photo-cont1{
+  width: 190px;
+  height: 190px;
+  background: #fff;
+  
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.footer1{
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 181, 204, 0.4);
+  width: 100%;
+  text-align: center;
+}
+
+/*END OF CIRCLE 1 & OVERLAY1*/
+
+
+
+#circle2{
+  background-color: rgba(200, 247, 197, 1);
+}
+
 .portfolio-circle{
-  background: white;
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
 
 }
+
+.btn2{
+  background-color: transparent;
+  border-style: none;
+  border-color: transparent;
+}
+
+#overlay-portfolio {
+  position: absolute;
+  display: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+
+/*INSIDE OVERLAY PORTFOLIO*/
+
+.wrap2{
+  background-color: rgba(51, 110, 123, 0.8);
+  overflow: auto;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  color: white;
+  position: relative;
+}
+
+
+.circles2{
+  position: absolute;
+  top: 10%;
+  left: 50%
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+
+}
+
+.btngal{
+  background-color: transparent;
+  border-style: none;
+  border-color: transparent;
+}
+
+.galphotos{
+  width: 190px;
+  height: 190px;
+  background: #000;
+  position: absolute;
+  display: inline-block;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+/*.btnidgal:focus {
+  outline: none !important;
+}
+
+.btnid2gal:focus {
+  outline: none !important;
+}
+}
+
+.btnid3gal:focus {
+  outline: none !important;
+}*/
+
+.gal-circles{
+  width: 200px;
+  height: 200px;
+  background: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+
+  padding: 0px;
+  transition: transform .2s;
+}
+
+.gal-circles:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.gal-circles{
+  background-color: rgba(197, 239, 247, 1);
+}
+
+.gallery-circle{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.card2wrap{
+/*  display: flex;
+  justify-content: center;*/
+  position: relative;
+
+}
+.card2cont{
+/*  display: flex;
+  justify-content: center;*/
+  width: 80%;
+  height: 350px;
+
+}
+.about-portfolio {
+  background-color: transparent;
+  overflow: auto;
+  width: 100%;
+  height: 300px;
+}
+.head-pic2{
+  display: inline-block;
+  text-align: center;
+}
+
+.idphoto2{
+  width: 190px;
+  height: 190px;
+  background: #000;
+  position: absolute;
+  display: inline-block;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.head-name2{
+  display: flex;
+  justify-content: center;
+}
+.photo-cont2{
+  width: 190px;
+  height: 190px;
+  background: #fff;
+  
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.footer2{
+  position: absolute;
+  bottom: 0;
+  /*background-color: rgba(0, 181, 204, 0.4);*/
+  width: 100%;
+  text-align: center;
+  color:white;
+
+/*  margin-top:20px;*/
+}
+
+
+
+
+
+
+/*CIRCLE 3*/
+
+#circle3{
+  background-color: rgba(253, 227, 167, 1);
+}
+
+
 
 .contact-circle{
-  background: white;
+ 
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
 }
 
+
+
+.btn3{
+  background-color: transparent;
+  border-style: none;
+  border-color: transparent;
+}
+
+#overlay-contact {
+  position: absolute;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+/*END OF CIRCLE 3*/
 .eyes{
 margin-top: 120px;
 	transform: translateY(-50%);
@@ -95,23 +429,18 @@ margin-top: 120px;
 }
 
 .eyeball{
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background: #000;
   position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-    border: 10px solid #333;
+    border: 5px solid rgba(108, 122, 137, 1);
 }
 
 
-.three-circles:hover {
-  -ms-transform: scale(1.2); /* IE 9 */
-  -webkit-transform: scale(1.2); /* Safari 3-8 */
-  transform: scale(1.2); 
-}
 
 
 .foot1{
@@ -135,43 +464,4 @@ width: 100%;
   margin-bottom: 20px;
 }
 
-#overlay-me {
-  position: absolute;
-  display: none;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.5);
-  z-index: 2;
-  cursor: pointer;
-}
 
-
-.ex3 {
-  background-color: lightblue;
-  overflow: auto;
-	width: 50%;
-  height: 400px;
-  
-}
-
-.card1cont{
-	display: flex;
-	justify-content: center;
-	position: relative;
-	
-	
-}
-
-.head-name{
-	display: flex;
-	justify-content: center;
-}
-
-.footer{
-	position: absolute;
-	bottom: 0;
-}

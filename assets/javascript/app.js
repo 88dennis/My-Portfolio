@@ -21,15 +21,41 @@ var x = event.clientX * 100 / window.innerWidth +"%";
 //   document.getElementById("overlay-me").style.display = "none";
 // }
 
+$("#btnid1").click(function(){
+  $("#overlay-me").fadeIn(500);
+});
+
 $("#overlay-me").click(function(){
   $("#overlay-me").fadeOut(500);
 });
 
-  $("#btnid").click(function(){
-  $("#overlay-me").fadeIn(500);
-});
- 
+  
 
+  // circle2
+ $("#btnid2").click(function(){
+ 	$("#overlay-me").fadeOut(500);
+  $("#overlay-portfolio").fadeIn(500);
+  
+});
+
+ $(".footer2").click(function(){
+  $("#overlay-portfolio").fadeOut(500);
+});
+
+  
+
+  // circle3
+
+$("#overlay-contact").click(function(){
+  $("#overlay-contact").fadeOut(500);
+});
+
+  $("#btnid3").click(function(){
+  $("#overlay-contact").fadeIn(500);
+  $("#overlay-me").fadeOut(500);
+  $("#overlay-portfolio").fadeOut(500);
+  
+});
 
 
 
