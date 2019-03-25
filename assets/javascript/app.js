@@ -46,7 +46,7 @@ $("#overlay-me").click(function(){
 
   // circle3
 
-$("#overlay-contact").click(function(){
+$(".footer2").click(function(){
   $("#overlay-contact").fadeOut(500);
 });
 
