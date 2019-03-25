@@ -84,6 +84,31 @@ select:focus {
   transform: scale(1.2); 
 }
 
+.mainwrap{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.mainwrap2{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.mainwrap3{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.backbutton{
+
+  display: flex;
+  justify-content: center;
+
+}
+
 
 /*CIRCLE 1*/
 
@@ -100,10 +125,8 @@ select:focus {
 
 #overlay-me {
   position: absolute;
-  display: flex;
-  justify-content: center;
   width: 100%;
-  height: 100%;
+  height: 100vw;
   top: 0;
   left: 0;
   right: 0;
@@ -213,8 +236,7 @@ select:focus {
   position: absolute;
   display: none;
   width: 100%;
-  display: flex;
-  justify-content: center;
+  height: 100vw;
  
   top: 0;
   left: 0;
@@ -309,11 +331,6 @@ select:focus {
 .gal-circles{
   background-color: rgba(197, 239, 247, 1);
 }
-
-
-
-
-
 .card2wrap{
 /*  display: flex;
   justify-content: center;*/
@@ -366,15 +383,12 @@ select:focus {
 }
 
 .footer2{
-  position: absolute;
-  bottom: 0;
-  /*background-color: rgba(0, 181, 204, 0.4);*/
-  width: 100%;
-  text-align: center;
-  color:white;
+display: flex;
+justify-content: center;
+}
 
 /*  margin-top:20px;*/
-}
+
 
 .pfooter {
   margin-bottom: 10px;
@@ -414,7 +428,7 @@ select:focus {
   position: absolute;
   display: none;
   width: 100%;
-  height: 100%;
+  height: 100vw;
   top: 0;
   left: 0;
   right: 0;
@@ -422,8 +436,6 @@ select:focus {
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
 }
 
 
