@@ -1,9 +1,15 @@
+
+/*FIX THE FOOTER
+SET OVERFLOW HIDDEN TO BODY
+FIX THE MEDIA QUERY FOR LANDSCAPE USING OVERFLOW AUTO TO BODY*/
+
 body{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	background: -webkit-gradient(linear, left top, left bottom, from(#2574a9), to(#336e7b)) fixed;
   font-family: 'Lato', sans-serif;
+  overflow: hidden;
   }
 
 .circles{
@@ -13,7 +19,9 @@ body{
 	left: 50%
 	transform: translateY(-50%);
 	width: 100%;
+  height: 90%;
 	text-align: center;
+  overflow: auto;
 
 }
 
@@ -88,18 +96,19 @@ select:focus {
   display: flex;
   justify-content: center;
   position: relative;
+  height: 70%;
+  margin-top:50px;
 }
 
 .mainwrap2{
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 70%;
+
+
 }
-.mainwrap3{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
+
 
 
 .backbutton{
@@ -126,7 +135,7 @@ select:focus {
 #overlay-me {
   position: absolute;
   width: 100%;
-  height: 100vw;
+  height: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -143,7 +152,7 @@ select:focus {
   background-color: rgba(51, 110, 123, 0.8);
   overflow: auto;
   width: 50%;
-  height: 500px;
+  height: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -203,7 +212,7 @@ select:focus {
 }
 
 .footer1{
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: rgba(0, 181, 204, 0.4);
   width: 100%;
@@ -236,7 +245,7 @@ select:focus {
   position: absolute;
   display: none;
   width: 100%;
-  height: 100vw;
+  height: 100%;
  
   top: 0;
   left: 0;
@@ -245,6 +254,7 @@ select:focus {
   background-color: rgba(0,0,0,0.5);
   z-index: 2;
   cursor: pointer;
+  color: white;
 }
 
 
@@ -253,11 +263,11 @@ select:focus {
 .wrap2{
   background-color: rgba(34, 167, 240, 0.4);
   overflow: auto;
-  width: 80%;
-  height: 500px;
+  width: 100%;
+  height: 90%;
   margin-top: 20px;
-  margin-bottom: 50px;
-  border-radius: 20px;
+  margin-bottom: 0px;
+  border-radius: 0px;
   color: white;
   position: relative;
 }
@@ -270,6 +280,7 @@ select:focus {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
+  margin-bottom: 50px;
 
 }
 
@@ -304,14 +315,30 @@ select:focus {
   outline: none !important;
 }*/
 
+.circlewrapgal{
+  width: 200px;
+  height: 250px;
+  background: transparent;
+  display: inline-block;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+  
+
+}
+.giticon{
+  margin-top: 20px;
+}
 .gal-circles{
   width: 200px;
   height: 200px;
   background: white;
   display: inline-block;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-top: 30px;
+  /*margin-left: 50px;
+  margin-right: 50px;*/
+  /*margin-top: 30px;*/
 
   border-radius: 50%;
   position: relative;
@@ -370,6 +397,7 @@ select:focus {
 .head-name2{
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .photo-cont2{
   width: 190px;
@@ -428,7 +456,7 @@ justify-content: center;
   position: absolute;
   display: none;
   width: 100%;
-  height: 100vw;
+  height: 100%;
   top: 0;
   left: 0;
   right: 0;
@@ -440,12 +468,21 @@ justify-content: center;
 
 
 /*INSIDE OVERLAY3*/
+
+.mainwrap3{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80%;
+  margin: 0;
+}
+
 .wrap3{
 background: rgba(27, 163, 156, 0.6);
   
   overflow: auto;
   width: 50%;
-  height: 500px;
+  height: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -465,13 +502,13 @@ background: rgba(27, 163, 156, 0.6);
   display: flex;
   justify-content: center;
   width: 80%;
-  height: 300px;
+
 
 }
 .contact-me {
   background-color: transparent;
   width: 100%;
-  height: 200px;
+  /*height: 200px;*/
 }
 .head-pic3{
   display: flex;
