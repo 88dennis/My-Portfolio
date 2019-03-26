@@ -10,7 +10,7 @@ body{
 	background: -webkit-gradient(linear, left top, left bottom, from(#2574a9), to(#336e7b)) fixed;
   font-family: 'Lato', sans-serif;
   overflow: hidden;
-  }
+}
 
 .circles{
 
@@ -20,7 +20,7 @@ body{
 	transform: translateY(-50%);
 	width: 100%;
   height: 90%;
-	text-align: center;
+  text-align: center;
   overflow: auto;
 
 }
@@ -28,8 +28,11 @@ body{
 
 .btn1{
 	background-color: transparent;
-	border-style: none;
-	border-color: transparent;
+  border-style: none;
+  border-color: transparent;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
 }
 
 .btnid:focus {
@@ -74,8 +77,8 @@ select:focus {
 	background: #fff;
 	display: inline-block;
   margin-left: 50px;
-	margin-right: 50px;
-	margin-top: 30px;
+  margin-right: 50px;
+  margin-top: 30px;
 
   border-radius: 50%;
   position: relative;
@@ -96,8 +99,10 @@ select:focus {
   display: flex;
   justify-content: center;
   position: relative;
-  height: 70%;
-  margin-top:50px;
+  height: 80%;
+  margin: 0;
+  width: 100%;
+
 }
 
 .mainwrap2{
@@ -109,6 +114,11 @@ select:focus {
 
 }
 
+.mainpagewrap{
+  margin: 0;
+  background-color: black;
+}
+
 
 
 .backbutton{
@@ -116,6 +126,13 @@ select:focus {
   display: flex;
   justify-content: center;
 
+}
+
+
+
+.btngit{
+  background-color: transparent;
+  border-style: none;
 }
 
 
@@ -239,6 +256,10 @@ select:focus {
   background-color: transparent;
   border-style: none;
   border-color: transparent;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+
 }
 
 #overlay-portfolio {
@@ -246,7 +267,7 @@ select:focus {
   display: none;
   width: 100%;
   height: 100%;
- 
+
   top: 0;
   left: 0;
   right: 0;
@@ -261,7 +282,7 @@ select:focus {
 /*INSIDE OVERLAY PORTFOLIO*/
 
 .wrap2{
-  background-color: rgba(34, 167, 240, 0.4);
+  background-color: rgba(34, 167, 240, 0.6);
   overflow: auto;
   width: 100%;
   height: 90%;
@@ -279,8 +300,8 @@ select:focus {
   left: 50%
   transform: translateY(-50%);
   width: 100%;
-  text-align: center;
-  margin-bottom: 50px;
+  text-align: center;/*
+  margin-bottom: 50px;*/
 
 }
 
@@ -313,29 +334,29 @@ select:focus {
 
 .btnid3gal:focus {
   outline: none !important;
-}*/
+  }*/
 
-.circlewrapgal{
-  width: 200px;
-  height: 250px;
-  background: transparent;
-  display: inline-block;
-  margin-right: 50px;
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 0;
-  
+  .circlewrapgal{
+    width: 200px;
+    height: 250px;
+    background: transparent;
+    display: inline-block;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
 
-}
-.giticon{
-  margin-top: 20px;
-}
-.gal-circles{
-  width: 200px;
-  height: 200px;
-  background: white;
-  display: inline-block;
+
+  }
+  .giticon{
+    margin-top: 20px;
+  }
+  .gal-circles{
+    width: 200px;
+    height: 200px;
+    background: white;
+    display: inline-block;
   /*margin-left: 50px;
   margin-right: 50px;*/
   /*margin-top: 30px;*/
@@ -349,7 +370,17 @@ select:focus {
   transition: transform .2s;
 }
 
+.gitref {
+  transition: transform .2s;
+}
+
 .gal-circles:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+}
+
+.gitref:hover {
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
@@ -360,15 +391,15 @@ select:focus {
 }
 .card2wrap{
 /*  display: flex;
-  justify-content: center;*/
-  position: relative;
+justify-content: center;*/
+position: relative;
 
 }
 .card2cont{
 /*  display: flex;
-  justify-content: center;*/
-  width: 80%;
-  height: 350px;
+justify-content: center;*/
+width: 80%;
+height: 350px;
 
 }
 .about-portfolio {
@@ -411,8 +442,8 @@ select:focus {
 }
 
 .footer2{
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 /*  margin-top:20px;*/
@@ -437,7 +468,7 @@ justify-content: center;
 
 
 .contact-circle{
- 
+
   position: absolute;
   top:50%;
   left:50%;
@@ -450,6 +481,9 @@ justify-content: center;
   background-color: transparent;
   border-style: none;
   border-color: transparent;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
 }
 
 #overlay-contact {
@@ -473,16 +507,16 @@ justify-content: center;
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 80%;
+  height: 85%;
   margin: 0;
 }
 
 .wrap3{
-background: rgba(27, 163, 156, 0.6);
+  background: rgba(27, 163, 156, 0.6);
   
   overflow: auto;
-  width: 50%;
-  height: 90%;
+  width: 60%;
+  height: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 20px;
@@ -495,6 +529,7 @@ background: rgba(27, 163, 156, 0.6);
   display: flex;
   justify-content: center;
   position: relative;
+
 
 
 }
@@ -542,6 +577,18 @@ background: rgba(27, 163, 156, 0.6);
   margin-top: 20px;
 }
 
+.linkinwrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.linkinbtn {
+  background-color: transparent;
+  border-style: none;
+}
+
+
 .footer3{
   position: absolute;
   bottom: 0;
@@ -553,11 +600,11 @@ background: rgba(27, 163, 156, 0.6);
 
 /*END OF CIRCLE 3*/
 .eyes{
-margin-top: 120px;
-	transform: translateY(-50%);
-	width: 100%;
-	text-align: center;
-	
+  margin-top: 120px;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+
 }
 
 .eye{
@@ -580,7 +627,7 @@ margin-top: 120px;
   left:50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-    border: 5px solid rgba(108, 122, 137, 1);
+  border: 5px solid rgba(108, 122, 137, 1);
 }
 
 
@@ -594,8 +641,8 @@ margin-top: 120px;
 	width: 100%;
 }
 .foot1 > .footcont {
-width: 100%;
-	text-align: center;
+  width: 100%;
+  text-align: center;
   visibility: hidden;
   opacity: 0;
   transition: visibility 0s, opacity 0.5s linear;
