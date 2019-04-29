@@ -5,7 +5,7 @@ FIX THE MEDIA QUERY FOR LANDSCAPE USING OVERFLOW AUTO TO BODY*/
 
 body{
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 	box-sizing: border-box;
 	background: -webkit-gradient(linear, left top, left bottom, from(#2574a9), to(#336e7b)) fixed;
   font-family: 'Lato', sans-serif;
@@ -15,12 +15,12 @@ body{
 .circles{
 
 	position: absolute;
-  top: 10%;
 	transform: translateY(-50%, 50%);
 	width: 100%;
   height: 90%;
   text-align: center;
   overflow: auto;
+
 
 }
 
@@ -65,6 +65,8 @@ select:focus {
   left:50%;
   transform: translate(-50%, -50%);
   height:30px;
+  
+
 }
 
 .front-namespar {
@@ -271,7 +273,7 @@ select:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(26, 29, 77, 0.8);
   z-index: 2;
   cursor: pointer;
   color: white;
@@ -281,10 +283,8 @@ select:focus {
 /*INSIDE OVERLAY PORTFOLIO*/
 
 .wrap2{
-  background-color: rgba(34, 167, 240, 0.6);
-  overflow: auto;
+  
   width: 100%;
-  height: 90%;
   margin-top: 20px;
   margin-bottom: 0px;
   border-radius: 0px;
@@ -293,14 +293,27 @@ select:focus {
 }
 
 
-.circles2{
+/* .circles2{
   position: absolute;
   top: 10%;
   transform: translateY(-50%, 50%);
   width: 100%;
-  text-align: center;/*
-  margin-bottom: 50px;*/
+  text-align: center;
 
+} */
+
+
+.box {
+  height: 300px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-bottom: 20px;
+  background-color:  rgba(92, 162, 228, 0.5);
+  padding: 30px;
+}
+::-webkit-scrollbar {
+  display: none;
 }
 
 .btngal{
@@ -310,8 +323,8 @@ select:focus {
 }
 
 .galphotos{
-  width: 190px;
-  height: 190px;
+  width: 180px;
+  height: 180px;
   background: #000;
   position: absolute;
   display: inline-block;
@@ -335,9 +348,9 @@ select:focus {
   }*/
 
   .circlewrapgal{
-    width: 200px;
-    height: 250px;
-    background: transparent;
+    width: 220px;
+    height: 220px;
+    /* background:   rgb(123, 108, 207); */
     display: inline-block;
     margin-right: 50px;
     margin-top: 20px;
@@ -345,21 +358,24 @@ select:focus {
     margin-right: 50px;
     margin-bottom: 20px;
     padding: 0;
+    border-radius: 20px;
 
 
   }
   .giticon{
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
   }
   .gal-circles{
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     background: white;
     display: inline-block;
   /*margin-left: 50px;
   margin-right: 50px;*/
   /*margin-top: 30px;*/
-
+  background-color: rgb(32, 35, 70);
   border-radius: 50%;
   position: relative;
   overflow: hidden;
@@ -385,9 +401,6 @@ select:focus {
   transform: scale(1.2); 
 }
 
-.gal-circles{
-  background-color: rgba(197, 239, 247, 1);
-}
 .card2wrap{
 /*  display: flex;
 justify-content: center;*/
@@ -412,7 +425,7 @@ height: 350px;
   text-align: center;
 }
 
-.idphoto2{
+/* .idphoto2{
   width: 190px;
   height: 190px;
   background: #000;
@@ -422,14 +435,14 @@ height: 350px;
   left:50%;
   transform: translate(-50%, -50%);
   border-radius: 50%;
-}
+} */
 
 .head-name2{
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
-.photo-cont2{
+/* .photo-cont2{
   width: 190px;
   height: 190px;
   background: #fff;
@@ -438,7 +451,7 @@ height: 350px;
   position: relative;
   overflow: hidden;
   margin-top: 20px;
-}
+} */
 
 .footer2{
   display: flex;
@@ -633,7 +646,7 @@ height: 350px;
 
 
 .foot1{
-	background: black;
+	background: transparent;
 	opacity: 0.3;
 	position: fixed;
 	bottom: 0;
