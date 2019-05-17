@@ -1,29 +1,26 @@
-
-/*FIX THE FOOTER
-SET OVERFLOW HIDDEN TO BODY
-FIX THE MEDIA QUERY FOR LANDSCAPE USING OVERFLOW AUTO TO BODY*/
-
 body{
 	margin: 0;
 	padding: 0px;
-	box-sizing: border-box;
-	background: -webkit-gradient(linear, left top, left bottom, from(#2574a9), to(#336e7b)) fixed;
+  box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2574a9), to(#336e7b)) fixed;
   font-family: 'Lato', sans-serif;
-  overflow: hidden;
+  height: 100%;
+ 
 }
+
+
 
 .circles{
 
 	position: absolute;
 	transform: translateY(-50%, 50%);
 	width: 100%;
-  height: 90%;
+
   text-align: center;
   overflow: auto;
-
+  margin-top: 50px;
 
 }
-
 
 .btn1{
 	background-color: transparent;
@@ -32,6 +29,7 @@ body{
   border-radius: 50%;
   width: 240px;
   height: 240px;
+  
 }
 
 .btnid:focus {
@@ -94,17 +92,15 @@ select:focus {
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
-}
-
-.mainwrap{
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 80%;
-  margin: 0;
-  width: 100%;
+  cursor: pointer;
 
 }
+
+button {
+  cursor: pointer;
+}
+
+
 
 .mainwrap2{
   display: flex;
@@ -117,7 +113,8 @@ select:focus {
 
 .mainpagewrap{
   margin: 0;
-  background-color: black;
+
+  height: 100vh;
 }
 
 
@@ -153,29 +150,41 @@ select:focus {
 #overlay-me {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  /* background-color: rgba(0,0,0,0.5); */
+  background-color: transparent;
   z-index: 2;
-  cursor: pointer;
+
 
 }
 
-/*INSIDE OVERLAY1*/
-.wrap1{
 
-  background-color: rgba(51, 110, 123, 0.8);
-  overflow: auto;
+
+/*INSIDE OVERLAY1*/
+.wrapmain1 {
+  justify-content: center;
+  display: flex;
+}
+.wrapmain2 {
   width: 50%;
-  height: 90%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 20px;
-  color: white;
-  
+  background-color: rgba(253, 227, 167, 1);
+  border-style: solid;
+  border-color: rgb(136, 127, 86);
+  border-width: 10px;
+  border-radius: 50px;
+margin-top: 50px;
+/* height: 100%; */
+margin-bottom: 50px;
+
+}
+
+.greetingwrap {
+  justify-content: center;
+  display: flex;
 }
 
 .card1wrap{
@@ -188,7 +197,8 @@ select:focus {
   display: flex;
   justify-content: center;
   width: 80%;
-  height: 350px;
+  /* height: 50vh; */
+  overflow: hidden;
 
 }
 .about-me {
@@ -229,13 +239,13 @@ select:focus {
   margin-top: 20px;
 }
 
-.footer1{
+/* .footer1{
   position: fixed;
   bottom: 0;
   background-color: rgba(0, 181, 204, 0.4);
   width: 100%;
   text-align: center;
-}
+} */
 
 /*END OF CIRCLE 1 & OVERLAY1*/
 
@@ -267,16 +277,18 @@ select:focus {
   position: absolute;
   display: none;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(26, 29, 77, 0.8);
+  /* background-color: rgba(26, 29, 77, 0.8); */
+  background-color: transparent;
   z-index: 2;
-  cursor: pointer;
+  /* cursor: pointer; */
   color: white;
+
 }
 
 
@@ -289,29 +301,28 @@ select:focus {
   margin-bottom: 0px;
   border-radius: 0px;
   color: white;
-  position: relative;
+
+  /* background-color: white; */
+}
+
+.circles2{
+  background-color: rgba(226, 230, 219, 0.9);
+  /* background-color: rgb(47, 79, 80, 0.5); */
+margin-top: 50px;
 }
 
 
-/* .circles2{
-  position: absolute;
-  top: 10%;
-  transform: translateY(-50%, 50%);
-  width: 100%;
-  text-align: center;
-
-} */
-
-
 .box {
-  height: 300px;
+  height: 350px;  
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
   margin-bottom: 20px;
-  background-color:  rgba(92, 162, 228, 0.5);
-  padding: 30px;
+  /* background-color:  rgba(92, 162, 228, 0.5); */
+  padding: 20px;
+  
 }
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -370,19 +381,26 @@ select:focus {
   .gal-circles{
     width: 220px;
     height: 220px;
-    background: white;
+    background-color: rgba(16, 17, 15, 0.8);
+    /* background: rgba(1, 50, 67, 1); */
+    box-shadow: 5px 5px 5px #181717;
     display: inline-block;
   /*margin-left: 50px;
   margin-right: 50px;*/
   /*margin-top: 30px;*/
-  background-color: rgb(32, 35, 70);
-  border-radius: 50%;
+
+  /* border-radius: 50%; */
   position: relative;
   overflow: hidden;
   text-align: center;
 
   padding: 0px;
   transition: transform .2s;
+}
+
+.gitconimg {
+  width:30;
+  height:30px
 }
 
 .gitref {
@@ -393,12 +411,14 @@ select:focus {
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
+  cursor: pointer;
 }
 
 .gitref:hover {
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2); 
+  cursor: pointer;
 }
 
 .card2wrap{
@@ -441,6 +461,18 @@ height: 350px;
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  color: black;
+}
+
+.quizsummarybtn {
+  border-style: none;
+  margin-bottom:5px;
+  box-shadow: 2px 3px 3px rgb(49, 46, 46), 0 2px 2px rgb(59, 58, 58);
+  font-size: 30px;
+  background-color: rgb(243, 247, 240);
+  margin-top: 20px;
+  cursor: default;
+  font-family: 'Special Elite', cursive;
 }
 /* .photo-cont2{
   width: 190px;
@@ -453,9 +485,29 @@ height: 350px;
   margin-top: 20px;
 } */
 
+.footer3{
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
 .footer2{
   display: flex;
   justify-content: center;
+  border-style: none;
+  background-color: transparent;
+  font-size: 30px;
+  cursor: pointer;
+  color:   rgb(248, 244, 246);
+  text-shadow: 3px 3px 6px #181717;
+  margin-bottom: 30px;
+}
+
+.footer2:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
 }
 
 /*  margin-top:20px;*/
@@ -507,9 +559,10 @@ height: 350px;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0,0,0,0.5);
+  /* background-color: rgba(0,0,0,0.5); */
+  background-color: transparent;
   z-index: 2;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 
@@ -518,31 +571,23 @@ height: 350px;
 .mainwrap3{
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 80%;
-  margin: 0;
+/* background-color: gray; */
 }
 
 .wrap3{
-  background: rgba(27, 163, 156, 0.6);
-  
-  overflow: auto;
+background-color: beige;
   width: 50%;
-  height: 90%;
+  height: 100%;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 20px;  
   color: white;
-
   
 }
 
 .card3wrap{
   display: flex;
   justify-content: center;
-  position: relative;
-
-
 
 }
 .card3cont{
@@ -556,6 +601,8 @@ height: 350px;
   background-color: transparent;
   width: 100%;
   /*height: 200px;*/
+  color: black;
+  font-size: 20px;
 }
 .head-pic3{
   display: flex;
@@ -577,6 +624,9 @@ height: 350px;
 .head-name3{
   display: flex;
   justify-content: center;
+  /* font-family: 'Special Elite', cursive; */
+  color: black;
+  font-size: 20px;
 }
 .photo-cont3{
   width: 100px;
@@ -600,14 +650,22 @@ height: 350px;
   border-style: none;
 }
 
+.linkinbtn:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
 
-.footer3{
+}
+
+
+/* .footer3{
   position: absolute;
   bottom: 0;
   background-color: rgba(0, 181, 204, 0.4);
   width: 100%;
   text-align: center;
-}
+} */
 
 
 /*END OF CIRCLE 3*/
@@ -667,6 +725,51 @@ height: 350px;
 }
 
 
+
+@media (max-width: 770px){
+
+  .mainwrap{
+  
+    width: 100%;
+  
+  }
+    .wrap1{
+    width: 80%;
+  
+  
+  }
+  
+  .card1cont{
+  
+    width: 100%;
+  
+    }
+  
+  
+    .about-me {
+    width: 90%;
+    
+  }
+  
+  .mainwrap3{
+    width: 100%;
+    
+  }
+  
+  .wrap3{
+    width: 90%;
+  
+    
+  }
+  
+  
+  #overlay-portfolio {
+  
+    height: 100vw;
+
+  }
+  }
+  
 @media (max-width: 768px){
 
 .mainwrap{
@@ -704,7 +807,11 @@ height: 350px;
 }
 
 
+#overlay-portfolio {
 
+  height: 100vw;
+
+}
 }
 
 
@@ -745,6 +852,12 @@ height: 350px;
   
 }
 
+#overlay-portfolio {
+
+  height: 100vh;
+
+}
+
 }
 
 
@@ -766,10 +879,18 @@ height: 350px;
   
 }
 
+.wrapmain2 {
+  width: 80%;
+  height:70%;
+  margin-top: 100px;
+  font-size: 25px;
+}
+
 .card1cont{
 
   width: 90%;
   height: 20%;
+  
 
   }
 
@@ -784,8 +905,12 @@ height: 350px;
   width: 80%;
   height: 80%;
   margin-top: 100px;
+}
 
-  
+#overlay-portfolio {
+
+  height: 100vh;
+
 }
 
 }
