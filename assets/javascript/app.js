@@ -64,6 +64,17 @@ $("#btnid3").click(function () {
 
 });
 
+$("#btnresumeid").click(function () {
+  $("#overlayresume").fadeIn(500);
+
+});
+
+
+$("#btnresumeidhide").click(function () {
+  $("#overlayresume").fadeOut(500);
+
+});
+
 
 
 // <link rel="stylesheet" href="assets/css/style.css">
