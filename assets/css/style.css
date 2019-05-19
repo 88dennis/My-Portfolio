@@ -20,7 +20,7 @@ body{
   right: 0;
   bottom: 0;
   /* background-color: rgba(26, 29, 77, 0.8); */
-  background-color: transparent;
+  background-color: white;;
   z-index: 3;
   /* cursor: pointer; */
   color: white;
