@@ -1,5 +1,3 @@
-
-
 var eyeBalls = document.getElementsByClassName("eyeball")
 document.onmousemove = function () {
   var x = event.clientX * 100 / window.innerWidth + "%";
@@ -25,13 +23,6 @@ $("#btnid1").click(function () {
   $("#overlay-me").fadeIn(500);
 });
 
-// $("#overlay-me").click(function () {
-//   $("#overlay-me").fadeOut(500);
-// });
-
-// $("#overlay-contact").click(function () {
-//   $("#overlay-contact").fadeOut(500);
-// });
 
 
 // circle2
