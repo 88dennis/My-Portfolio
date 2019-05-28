@@ -556,6 +556,7 @@ height: 350px;
   cursor: pointer;
   margin-bottom: 20px;
 }
+
 .footer2{
   display: flex;
   justify-content: center;
@@ -563,9 +564,8 @@ height: 350px;
   background-color: transparent;
   font-size: 28px;
   cursor: pointer;
-  color:   rgb(2, 2, 2);
-  /* text-shadow: 3px 3px 6px #181717; */
-  /* margin-bottom: 30px; */
+  color:   rgb(3, 3, 3);
+
 }
 
 .footer2:hover {
@@ -578,10 +578,10 @@ height: 350px;
 /*  margin-top:20px;*/
 
 
-.pfooter {
+/* .pfooter {
   margin-bottom: 10px;
   color: lightgray;
-}
+} */
 
 
 
