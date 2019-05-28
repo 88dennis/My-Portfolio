@@ -23,7 +23,10 @@ $("#btnid1").click(function () {
   $("#overlay-me").fadeIn(500);
 });
 
-
+$("#portfoliomodal1").click(function(){
+  $("#overlay-portfolio").fadeIn(500);
+  $("#overlay-me").fadeOut(500);
+})
 
 // circle2
 $("#btnid2").click(function () {
