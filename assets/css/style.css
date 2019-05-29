@@ -209,10 +209,11 @@ button {
 }
 .wrapmain2 {
   width: 50%;
-  background-color: rgba(253, 227, 167, 1);
-  border-style: solid;
-  border-color: rgb(136, 127, 86);
-  border-width: 10px;
+  background-color: white;
+  /* background-color: rgba(253, 227, 167, 1); */
+  border-style: none;
+  /* border-color: rgb(136, 127, 86); */
+  /* border-width: 10px; */
   border-radius: 50px;
 margin-top: 50px;
 /* height: 100%; */
@@ -230,6 +231,19 @@ margin-bottom: 50px;
 
 }
 
+#contactmodal1 {
+  border-style: none;
+  background-color: transparent;
+
+}
+
+#contactmodal1:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  cursor: pointer;
+
+}
 .greetingwrap {
   justify-content: center;
   display: flex;
@@ -263,8 +277,23 @@ margin-bottom: 50px;
 }
 
 .linkin {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
+}
+
+.phoneimg {
+  width: 35px;
+  height: 35px;
+}
+
+.gitconimg {
+  width:35px;
+  height:35px;
+}
+
+.cookieimg {
+  width:35px;
+  height:35px;
 }
 
 .idphoto{
@@ -315,6 +344,8 @@ margin-bottom: 50px;
   color: white;
   height: 30px;
   border-radius: 50px;
+  margin-left: 10px;
+  margin-right:10px;
 }
 
 .btnresume:hover {
@@ -463,10 +494,7 @@ margin-bottom: 50px;
   transition: transform .2s;
 }
 
-.gitconimg {
-  width:30;
-  height:30px
-}
+
 
 .gitref {
   transition: transform .2s;
@@ -640,7 +668,8 @@ height: 350px;
 }
 
 .wrap3{
-background-color: beige;
+  background-color: white;
+/* background-color: beige; */
   width: 50%;
   height: 100%;
   margin-top: 20px;
@@ -1167,10 +1196,7 @@ embed {
 }
 
 
-.linkin {
-  width: 50px;
-  height: 50px;
-}
+
 .card1cont{
 
   width: 90%;
@@ -1188,7 +1214,7 @@ embed {
 
 .wrap3{
   width: 80%;
-  height: 100%;
+  height: 70%;
   margin-top: 100px;
 }
 
@@ -1256,10 +1282,7 @@ embed {
 }
 
 
-.linkin {
-  width: 50px;
-  height: 50px;
-}
+
 
 .card1cont{
 
@@ -1278,7 +1301,7 @@ embed {
 
 .wrap3{
   width: 80%;
-  height: 100%;
+  height: 70%;
   margin-top: 100px;
 }
 
@@ -1359,10 +1382,6 @@ embed {
 }
 
 
-.linkin {
-  width: 50px;
-  height: 50px;
-}
 
 .card1cont{
 
@@ -1457,10 +1476,7 @@ embed {
 
 }
 
-.linkin {
-  width: 50px;
-  height: 50px;
-}
+
 
 .card1cont{
 

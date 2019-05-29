@@ -28,6 +28,12 @@ $("#portfoliomodal1").click(function(){
   $("#overlay-me").fadeOut(500);
 })
 
+$("#contactmodal1").click(function(){
+  $("#overlay-contact").fadeIn(500);
+  $("#overlay-me").fadeOut(500);
+})
+
+
 // circle2
 $("#btnid2").click(function () {
   $("#overlay-me").fadeOut(500);
