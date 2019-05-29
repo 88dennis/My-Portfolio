@@ -14,6 +14,7 @@ body{
 
 .infodetailcontact {
   margin-left: 10px;
+
 }
 
 form {
@@ -65,8 +66,8 @@ form {
   border-style: none;
   border-color: transparent;
   border-radius: 50%;
-  width: 240px;
-  height: 240px;
+  width: 300px;
+  height: 300px;
   
 }
 
@@ -109,8 +110,8 @@ select:focus {
   padding-bottom: 40px;
 }
 .three-circles{
-	width: 250px;
-	height: 250px;
+	width: 300px;
+	height: 300px;
 	background: #fff;
 	display: inline-block;
   margin-left: 50px;
@@ -342,10 +343,12 @@ margin-bottom: 50px;
   border-style: none;
   background-color: rgb(236, 74, 74);
   color: white;
-  height: 30px;
+  height: 35px;
   border-radius: 50px;
   margin-left: 10px;
   margin-right:10px;
+  padding-left: 10px;
+  padding-right:10px;
 }
 
 .btnresume:hover {
@@ -854,9 +857,21 @@ width: 100%;
     hr {
       width: 90%;
     }
-    .rowwrap  {
+    .rowwrap1  {
+      text-align: center;
+      width: 25%;
+      word-wrap: break-word;
+    }
+
+    .rowwrap2  {
       text-align: left;
-      width: 33%;
+      width: 50%;
+      word-wrap: break-word;
+    }
+
+    .rowwrap3 {
+      text-align: left;
+      width: 25%;
       word-wrap: break-word;
     }
 
@@ -1134,13 +1149,45 @@ overflow: auto;
   width: 80%;
   
 }
+
+
 }
 
 
 @media (device-height: 812px) and (device-width: 375px) and (-webkit-min-device-pixel-ratio: 2){
 
-  
+    .three-circles{
+      width: 400px;
+      height: 400px;
+      margin-top: 50px;
+      
+    }
 
+    .front-names {
+      font-size: 50px;
+    }
+  .greeting {
+    font-size: 35px;
+  }
+  .linkin {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .phoneimg {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .gitconimg {
+    width:80px;
+    height:80px;
+  }
+  
+  .cookieimg {
+    width:80px;
+    height:80px;
+  }
 
   .newWrap1a{
     width: 90%;
@@ -1165,8 +1212,8 @@ overflow: auto;
 
 .btnresume {
 
-  height: 50px;
-font-size: 20px;
+  height: 70px;
+font-size: 30px;
 padding-left: 20px;
 padding-right: 20px;
 }
@@ -1224,9 +1271,55 @@ embed {
 
 }
 
+.infodetailcontact {
+font-size: 35px;
+
+}
+
+.apptitle {
+  font-size: 35px;
+}
+.appdesc{
+  font-size: 25px;
+}
+
+.quizsummarybtn{
+  font-size: 50px;
+}
 }
 
 @media (device-height: 736px) and (device-width: 414px) and (-webkit-min-device-pixel-ratio: 2){
+
+  .three-circles{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    
+  }
+
+  .front-names {
+    font-size: 50px;
+  }
+
+  .linkin {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .phoneimg {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .gitconimg {
+    width:80px;
+    height:80px;
+  }
+  
+  .cookieimg {
+    width:80px;
+    height:80px;
+  }
 
   .newWrap1a{
     width: 90%;
@@ -1250,8 +1343,8 @@ embed {
 
 .btnresume {
 
-  height: 50px;
-font-size: 20px;
+  height: 70px;
+font-size: 30px;
 padding-left: 20px;
 padding-right: 20px;
 }
@@ -1294,7 +1387,7 @@ embed {
 
 .mainwrap3{
   width: 100%;
-  height: 35%;
+  height: 45%;
   margin: 0;
   margin-top: 200px;
 }
@@ -1313,15 +1406,25 @@ embed {
 
 .greeting {
 
-  font-size: 30px;
+  font-size: 35px;
   
 }
 
 .apptitle {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+.appdesc{
   font-size: 25px;
 }
 
+.quizsummarybtn{
+  font-size: 50px;
+}
+
+.infodetailcontact {
+  font-size: 35px;
+  
+  }
 }
 
 
@@ -1329,6 +1432,40 @@ embed {
 
 @media (device-height: 667px) and (device-width: 375px) and (-webkit-min-device-pixel-ratio: 2){
 
+  .infodetailcontact {
+    font-size: 35px;
+    
+    }
+  .three-circles{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    
+  }
+
+  .front-names {
+    font-size: 50px;
+  }
+  .linkin {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .phoneimg {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .gitconimg {
+    width:80px;
+    height:80px;
+  }
+  
+  .cookieimg {
+    width:80px;
+    height:80px;
+  }
+
   .newWrap1a{
     width: 90%;
 
@@ -1351,8 +1488,8 @@ embed {
 
 .btnresume {
 
-  height: 50px;
-font-size: 20px;
+  height: 70px;
+font-size: 30px;
 padding-left: 20px;
 padding-right: 20px;
 }
@@ -1412,18 +1549,58 @@ embed {
 
 .greeting {
 
-  font-size: 30px;
+  font-size: 35px;
   
 }
 
 .apptitle {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+.appdesc{
   font-size: 25px;
+}
+
+.quizsummarybtn{
+  font-size: 50px;
 }
 }
 
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
 
+  .infodetailcontact {
+    font-size: 35px;
+    
+    }
+  .three-circles{
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    
+  }
+
+  .front-names {
+    font-size: 50px;
+  }
+  .linkin {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .phoneimg {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .gitconimg {
+    width:80px;
+    height:80px;
+  }
+  
+  .cookieimg {
+    width:80px;
+    height:80px;
+  }
+
   .newWrap1a{
     width: 90%;
 
@@ -1446,8 +1623,8 @@ embed {
 
 .btnresume {
 
-  height: 50px;
-font-size: 20px;
+  height: 70px;
+font-size: 30px;
 padding-left: 20px;
 padding-right: 20px;
 }
@@ -1507,13 +1684,19 @@ embed {
 
 .greeting {
 
-  font-size: 30px;
+  font-size: 35px;
   
 }
 
 .apptitle {
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+}
+.appdesc{
   font-size: 25px;
+}
+
+.quizsummarybtn{
+  font-size: 50px;
 }
 
 }
