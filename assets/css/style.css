@@ -16,7 +16,12 @@ body{
   color: gray;
 }
 .bcard {
-text-align: center;
+justify-content: center;
+display: flex;
+}
+
+.bcardimg {
+  display: block;
 }
 .label {
   color: black;
