@@ -57,6 +57,11 @@ $(".footer2").click(function () {
   $("#overlay-contact").fadeOut(500);
 });
 
+$(".footer3").click(function () {
+  $("#overlay-contact").fadeOut(500);
+  window.location.reload();
+});
+
 $("#btnid3").click(function () {
   $("#overlay-contact").fadeIn(500);
   $("#overlay-me").fadeOut(500);
@@ -75,6 +80,26 @@ $("#btnresumeidhide").click(function () {
 
 });
 
+function submitForm() {
+
+  // document.getElementById("contact-form").submit();
+  var p = document.getElementById('subjectid')
+  p.value = p.value.replace(/\+/g,' ');
+  
+  setTimeout( function( ){
+    document.getElementById("contact-form").reset();
+  }, 3000)
+ 
+
+}
+
+// function replacespace() {
+
+
+//   // var str = document.getElementById("subjectid").value; 
+//   // str.replace("+", " ");
+
+// }
 
 
 // <link rel="stylesheet" href="assets/css/style.css">
