@@ -231,11 +231,10 @@ button {
   bottom: 0;
   /* background-color: rgba(0,0,0,0.5); */
   background-color: transparent;
-  z-index: 2;
+  z-index: 100;
 
 
 }
-
 
 
 /*INSIDE OVERLAY1*/
@@ -950,7 +949,9 @@ width: 100%;
 
 
 .alinkclass {
-  border-radius: 20px;
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
 }
 
 
@@ -1143,7 +1144,6 @@ overflow: auto;
   height: 100vw;
 
 }
-
 .wrapmain2 {
   width: 80%;
   
@@ -1153,7 +1153,6 @@ overflow: auto;
 
 
 @media (device-height: 1024px) and (device-width: 768px) and (-webkit-min-device-pixel-ratio: 2){
-
 
   .newWrap1a{
     width: 90%;
@@ -1218,29 +1217,29 @@ overflow: auto;
     }
 
     .front-names {
-      font-size: 50px;
+      font-size: 20px;
     }
   .greeting {
-    font-size: 35px;
+    font-size: 15px;
   }
   .linkin {
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
   }
   
   .phoneimg {
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
   }
   
   .gitconimg {
-    width:80px;
-    height:80px;
+    width:35px;
+    height:35px;
   }
   
   .cookieimg {
-    width:80px;
-    height:80px;
+    width:35px;
+    height:35px;
   }
 
   .newWrap1a{
@@ -1266,10 +1265,10 @@ overflow: auto;
 
 .btnresume {
 
-  height: 70px;
-font-size: 30px;
-padding-left: 20px;
-padding-right: 20px;
+  height: 35px;
+font-size: 12px;
+padding-left: 10px;
+padding-right: 10px;
 }
 embed {
   height: 100vh;
@@ -1279,19 +1278,20 @@ embed {
   overflow: auto;
   width: 90%;
   height: 100%;
+  font-size: 15px;
 }
 
 .wrapmain2 {
   width: 80%;
   height:100%;
   margin-top: 100px;
-  font-size: 35px;
+  font-size: 15px;
   overflow: auto;
 }
 
 #portfoliomodal1 {
 
-  font-size: 35px;
+  font-size: 15px;
   
 
 }
@@ -1326,15 +1326,15 @@ embed {
 }
 
 .infodetailcontact {
-font-size: 35px;
+font-size: 15px;
 
 }
 
 .apptitle {
-  font-size: 35px;
+  font-size: 15px;
 }
 .appdesc{
-  font-size: 25px;
+  font-size: 12px;
 }
 
 .quizsummarybtn{
@@ -1352,27 +1352,27 @@ font-size: 35px;
   }
 
   .front-names {
-    font-size: 50px;
+    font-size: 20px;
   }
 
   .linkin {
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
   }
   
   .phoneimg {
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
   }
   
   .gitconimg {
-    width:80px;
-    height:80px;
+    width: 35px;
+    height: 35px;
   }
   
   .cookieimg {
-    width:80px;
-    height:80px;
+    width: 35px;
+    height: 35px;
   }
 
   .newWrap1a{
@@ -1397,10 +1397,10 @@ font-size: 35px;
 
 .btnresume {
 
-  height: 70px;
-font-size: 30px;
-padding-left: 20px;
-padding-right: 20px;
+  height: 35px;
+font-size: 12px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 embed {
@@ -1417,13 +1417,13 @@ embed {
   width: 80%;
   height:100%;
   margin-top: 100px;
-  font-size: 35px;
+  font-size: 15px;
   overflow: auto;
 }
 
 #portfoliomodal1 {
 
-  font-size: 35px;
+  font-size: 15px;
   
 
 }
@@ -1460,15 +1460,15 @@ embed {
 
 .greeting {
 
-  font-size: 35px;
+  font-size: 15px;
   
 }
 
 .apptitle {
-  font-size: 35px;
+  font-size: 15px;
 }
 .appdesc{
-  font-size: 25px;
+  font-size: 12px;
 }
 
 .quizsummarybtn{
@@ -1476,7 +1476,7 @@ embed {
 }
 
 .infodetailcontact {
-  font-size: 35px;
+  font-size: 15px;
   
   }
 }
@@ -1487,7 +1487,7 @@ embed {
 @media (device-height: 667px) and (device-width: 375px) and (-webkit-min-device-pixel-ratio: 2){
 
   .infodetailcontact {
-    font-size: 35px;
+    font-size: 15px;
     
     }
   .three-circles{
@@ -1498,26 +1498,26 @@ embed {
   }
 
   .front-names {
-    font-size: 50px;
+    font-size: 20px;
   }
   .linkin {
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
   }
   
   .phoneimg {
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
   }
   
   .gitconimg {
-    width:80px;
-    height:80px;
+    width: 35px;
+    height: 35px;
   }
   
   .cookieimg {
-    width:80px;
-    height:80px;
+    width: 35px;
+    height: 35px;
   }
 
   .newWrap1a{
@@ -1542,10 +1542,10 @@ embed {
 
 .btnresume {
 
-  height: 70px;
-font-size: 30px;
-padding-left: 20px;
-padding-right: 20px;
+  height: 35px;
+font-size: 12px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 embed {
@@ -1562,12 +1562,12 @@ embed {
   width: 80%;
   height:100%;
   margin-top: 100px;
-  font-size: 35px;
+  font-size: 15px;
   overflow: auto;
 }
 #portfoliomodal1 {
 
-  font-size: 35px;
+  font-size: 15px;
   
 
 }
@@ -1603,15 +1603,15 @@ embed {
 
 .greeting {
 
-  font-size: 35px;
+  font-size: 15px;
   
 }
 
 .apptitle {
-  font-size: 35px;
+  font-size: 15px;
 }
 .appdesc{
-  font-size: 25px;
+  font-size: 12px;
 }
 
 .quizsummarybtn{
@@ -1622,7 +1622,7 @@ embed {
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2){
 
   .infodetailcontact {
-    font-size: 35px;
+    font-size: 15px;
     
     }
   .three-circles{
@@ -1633,26 +1633,26 @@ embed {
   }
 
   .front-names {
-    font-size: 50px;
+    font-size: 20px;
   }
   .linkin {
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
   }
   
   .phoneimg {
-    width: 80px;
-    height: 80px;
+    width: 35px;
+    height: 35px;
   }
   
   .gitconimg {
-    width:80px;
-    height:80px;
+    width: 35px;
+    height: 35px;
   }
   
   .cookieimg {
-    width:80px;
-    height:80px;
+    width: 35px;
+    height: 35px;
   }
 
   .newWrap1a{
@@ -1677,10 +1677,10 @@ embed {
 
 .btnresume {
 
-  height: 70px;
-font-size: 30px;
-padding-left: 20px;
-padding-right: 20px;
+  height: 35px;
+font-size: 12px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 embed {
@@ -1697,12 +1697,12 @@ embed {
   width: 80%;
   height:100%;
   margin-top: 100px;
-  font-size: 35px;
+  font-size: 15px;
   overflow: auto;
 }
 #portfoliomodal1 {
 
-  font-size: 35px;
+  font-size: 15px;
   
 
 }
@@ -1738,19 +1738,19 @@ embed {
 
 .greeting {
 
-  font-size: 35px;
+  font-size: 15px;
   
 }
 
 .apptitle {
-  font-size: 35px;
+  font-size: 15px;
 }
 .appdesc{
-  font-size: 25px;
+  font-size: 12px;
 }
 
 .quizsummarybtn{
-  font-size: 50px;
+  font-size: 20px;
 }
 
 }
