@@ -1211,8 +1211,8 @@ overflow: auto;
 @media (device-height: 812px) and (device-width: 375px) and (-webkit-min-device-pixel-ratio: 2){
 
     .three-circles{
-      width: 400px;
-      height: 400px;
+      width: 300;
+      height: 300px;
       margin-top: 50px;
       
     }
@@ -1345,8 +1345,8 @@ font-size: 35px;
 @media (device-height: 736px) and (device-width: 414px) and (-webkit-min-device-pixel-ratio: 2){
 
   .three-circles{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin-top: 50px;
     
   }
@@ -1491,8 +1491,8 @@ embed {
     
     }
   .three-circles{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin-top: 50px;
     
   }
@@ -1626,8 +1626,8 @@ embed {
     
     }
   .three-circles{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     margin-top: 50px;
     
   }
