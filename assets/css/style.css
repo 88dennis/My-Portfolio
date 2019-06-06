@@ -101,8 +101,8 @@ form {
   border-style: none;
   border-color: transparent;
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 275px;
+  height: 275px;
   
 }
 
@@ -125,7 +125,7 @@ select:focus {
   z-index: 2;
   margin-top: 50px;
   background-color: rgba(46, 49, 49, .6);
-  width: 300px;
+  width: 275px;
   height: 20px;
   color:white;
   padding-bottom: 10px;
@@ -145,8 +145,8 @@ select:focus {
   padding-bottom: 40px;
 }
 .three-circles{
-	width: 300px;
-	height: 300px;
+	width: 275px;
+	height: 275px;
 	background: #fff;
 	display: inline-block;
   margin-left: 50px;
@@ -1211,8 +1211,8 @@ overflow: auto;
 @media (device-height: 812px) and (device-width: 375px) and (-webkit-min-device-pixel-ratio: 2){
 
     .three-circles{
-      width: 300;
-      height: 300px;
+      width: 275px;
+      height: 275px;
       margin-top: 50px;
       
     }
@@ -1345,8 +1345,8 @@ font-size: 35px;
 @media (device-height: 736px) and (device-width: 414px) and (-webkit-min-device-pixel-ratio: 2){
 
   .three-circles{
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     margin-top: 50px;
     
   }
@@ -1491,8 +1491,8 @@ embed {
     
     }
   .three-circles{
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     margin-top: 50px;
     
   }
@@ -1626,8 +1626,8 @@ embed {
     
     }
   .three-circles{
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     margin-top: 50px;
     
   }
