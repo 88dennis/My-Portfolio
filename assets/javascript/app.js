@@ -69,7 +69,9 @@ $("#btnid3").click(function() {
 
 });
 
+
 $("#btnresumeid").click(function() {
+    $("#overlay-me").fadeOut(500);
     $("#overlayresume").fadeIn(500);
 
 });
@@ -77,7 +79,7 @@ $("#btnresumeid").click(function() {
 
 $("#btnresumeidhide").click(function() {
     $("#overlayresume").fadeOut(500);
-
+    $("#overlay-me").fadeIn(500);
 });
 
 function submitForm() {
